@@ -20,7 +20,7 @@ public class FolderCommand : Command<FolderCommandSettings>
     /// <param name="context">The command context</param>
     /// <param name="settings">The command settings</param>
     /// <returns>Exit code (0 for success, non-zero for failure)</returns>
-    public override int Execute([NotNull] CommandContext context, [NotNull] FolderCommandSettings settings)
+    public override int Execute([NotNull] CommandContext context, [NotNull] FolderCommandSettings settings, CancellationToken cancellationToken)
     {
         try
         {
