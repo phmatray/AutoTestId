@@ -21,7 +21,7 @@ public class ProjectCommand : Command<ProjectCommandSettings>
     /// <param name="context">The command context</param>
     /// <param name="settings">The command settings</param>
     /// <returns>Exit code (0 for success, non-zero for failure)</returns>
-    public override int Execute([NotNull] CommandContext context, [NotNull] ProjectCommandSettings settings)
+    public override int Execute([NotNull] CommandContext context, [NotNull] ProjectCommandSettings settings, CancellationToken cancellationToken)
     {
         try
         {

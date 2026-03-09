@@ -21,7 +21,7 @@ public class SolutionCommand : Command<SolutionCommandSettings>
     /// <param name="context">The command context</param>
     /// <param name="settings">The command settings</param>
     /// <returns>Exit code (0 for success, non-zero for failure)</returns>
-    public override int Execute([NotNull] CommandContext context, [NotNull] SolutionCommandSettings settings)
+    public override int Execute([NotNull] CommandContext context, [NotNull] SolutionCommandSettings settings, CancellationToken cancellationToken)
     {
         try
         {

@@ -57,14 +57,15 @@ jobs:
       run: dotnet build --no-restore --configuration Release
       
     - name: Test with coverage
-      run: |
-        cd AutoTestId.UnitTests
-        dotnet run --configuration Release -- --coverage --coverage-output-format cobertura --coverage-output coverage.cobertura.xml
-        
+      run: >
+        dotnet test --no-build --configuration Release
+        --collect:"XPlat Code Coverage"
+        --results-directory ./coverage
+
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v5
       with:
-        file: ./AutoTestId.UnitTests/coverage.cobertura.xml
+        directory: ./coverage
         fail_ci_if_error: false
         verbose: true
 
