@@ -1,3 +1,5 @@
+![AutoTestId banner](.github/banner.png)
+
 # AutoTestId
 
 A .NET tool for automatically adding `data-testid` attributes to Razor components for improved testability.
