@@ -204,6 +204,18 @@ dotnet build
 dotnet run -- file MyComponent.razor
 ```
 
+<!-- portfolio-techstack:start -->
+
+## Tech Stack
+
+- **.NET 9**
+- Shouldly
+- xunit.v3
+- xunit.runner.visualstudio
+- Spectre.Console.Cli
+
+<!-- portfolio-techstack:end -->
+
 ## License
 
 MIT License - see LICENSE file for details.
