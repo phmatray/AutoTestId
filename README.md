@@ -15,6 +15,23 @@
 [![Last commit](https://img.shields.io/github/last-commit/phmatray/AutoTestId)](https://github.com/phmatray/AutoTestId/commits)
 <!-- portfolio-badges:end -->
 
+<!-- portfolio-toc:start -->
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How It Works](#how-it-works)
+- [Command Reference](#command-reference)
+- [Development](#development)
+- [Tech Stack](#tech-stack)
+- [License](#license)
+- [Contributing](#contributing)
+
+<!-- portfolio-toc:end -->
+
+
 
 A .NET tool for automatically adding `data-testid` attributes to Razor components for improved testability.
 
