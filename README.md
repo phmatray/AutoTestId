@@ -8,6 +8,7 @@
 ![Top language](https://img.shields.io/github/languages/top/phmatray/AutoTestId)
 [![Stars](https://img.shields.io/github/stars/phmatray/AutoTestId?style=social)](https://github.com/phmatray/AutoTestId/stargazers)
 [![Forks](https://img.shields.io/github/forks/phmatray/AutoTestId?style=social)](https://github.com/phmatray/AutoTestId/network/members)
+[![License](https://img.shields.io/github/license/phmatray/AutoTestId)](https://github.com/phmatray/AutoTestId/blob/HEAD/LICENSE)
 
 <!-- Activity -->
 [![Issues](https://img.shields.io/github/issues/phmatray/AutoTestId)](https://github.com/phmatray/AutoTestId/issues)
